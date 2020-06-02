@@ -1,0 +1,268 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+header{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+header p:first-child{
+    font-family: 'Work Sans', sans-serif;
+}
+header h1{
+    font-size: 70px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+header p:last-child{
+    font-size: 110px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+main div:first-of-type{
+    /* height: 600px; */
+    padding-left: 250px;
+    padding-top: 50px;
+    background: url(../css/img/portfolio2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+div:first-of-type p:first-child{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+
+}
+div:first-of-type h1{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 80px;
+    padding-top: -40px;
+}
+div:first-of-type p:nth-child(3){
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+}
+div:first-of-type p:nth-child(4){
+    border: solid 1px;
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Fjalla One', sans-serif;
+}
+div:first-of-type p:nth-child(4):hover{
+    background-color: white;
+    color: black;
+}
+div:first-of-type p:nth-child(5){
+    font-size: 100px;
+    text-align: right;
+    font-family: 'Fjalla One', sans-serif;
+    margin-right: 120px;
+    margin-top:100px;
+    position: relative;
+    top: -60px;
+    color: rgb(255, 255, 255, 0.3);
+}
+div:first-of-type p:nth-child(4):hover~p:nth-child(5){
+    color: white;
+}
+main div:nth-of-type(2){
+    /* height: 600px; */
+    padding-left: 250px;
+    padding-top: 90px;
+    background: url(../css/img/portfolio3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    margin-top: 150px;
+}
+div:nth-of-type(2) p:first-child{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+
+}
+div:nth-of-type(2) h1{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 80px;
+    margin-top: -10px;
+}
+div:nth-of-type(2) p:nth-child(3){
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+}
+div:nth-of-type(2) p:nth-child(4){
+    border: solid 1px;
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 90px;
+}
+div:nth-of-type(2) p:nth-child(4):hover{
+    background-color: black;
+    color: white;
+}
+div:nth-of-type(2) p:nth-child(5){
+    font-size: 100px;
+    text-align: right;
+    font-family: 'Fjalla One', sans-serif;
+    margin-right: 120px;
+    margin-top: 0;
+    color: rgb(192, 192, 192, 0.7);
+}
+div:nth-of-type(2) p:nth-child(4):hover~p:nth-child(5){
+    color: black;
+}
+main div:nth-of-type(3){
+    /* height: 600px; */
+    padding-left: 250px;
+    padding-top: 90px;
+    background: url(../css/img/portfolio4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 150px;
+}
+div:nth-of-type(3) p:first-child{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+
+}
+div:nth-of-type(3) h1{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 80px;
+    margin-top: -10px;
+}
+div:nth-of-type(3) p:nth-child(3){
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+}
+div:nth-of-type(3) p:nth-child(4){
+    border: solid 1px;
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    font-family: 'Fjalla One', sans-serif;
+}
+div:nth-of-type(3) p:nth-child(4):hover{
+    background-color: white;
+    color: black;
+}
+div:nth-of-type(3) p:nth-child(5){
+    font-size: 100px;
+    text-align: right;
+    font-family: 'Fjalla One', sans-serif;
+    margin-right: 120px;
+    margin-top: 0;
+    position: relative;
+    top: -60px;
+    color: rgb(255, 255, 255, 0.3);
+}
+div:nth-of-type(3) p:nth-child(4):hover~p:nth-child(5){
+    color: white;
+}
+main div:nth-of-type(4){
+    /* height: 600px; */
+    padding-left: 250px;
+    padding-top: 90px;
+    background: url(../css/img/portfolio5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    margin-top: 150px;
+}
+div:nth-of-type(4) p:first-child{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+
+}
+div:nth-of-type(4) h1{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 80px;
+    margin-top: -10px;
+}
+div:nth-of-type(4) p:nth-child(3){
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+}
+div:nth-of-type(4) p:nth-child(4){
+    border: solid 1px;
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 90px;
+}
+div:nth-of-type(4) p:nth-child(4):hover{
+    background-color: black;
+    color: white;
+}
+div:nth-of-type(4) p:nth-child(5){
+    font-size: 100px;
+    text-align: right;
+    font-family: 'Fjalla One', sans-serif;
+    margin-right: 120px;
+    margin-top: 0;
+    color: rgb(192, 192, 192, 0.7);
+}
+div:nth-of-type(4) p:nth-child(4):hover~p:nth-child(5){
+    color: black;
+}
+div:nth-of-type(5){
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+div:nth-of-type(5) h1:first-child{
+    font-size: 100px;
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 60px;
+}
+div:nth-of-type(5)  p:nth-child(2){
+    /* position: relative;
+    right: -680px; */
+    max-width: 50% ;
+    padding-left: 680px ;
+    font-family: 'Didact Gothic', sans-serif;
+    line-height: 35px;
+    color: gray;
+}
+div:nth-of-type(5)  p:nth-child(3){
+    text-align: right;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 40px;
+    padding-bottom: 50px;
+    padding-right: 485px;
+}
+div:nth-of-type(5)  p:nth-child(3) a{
+    text-decoration: none;
+    color: white;
+}
+div:nth-of-type(5)  p:nth-child(3) a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
